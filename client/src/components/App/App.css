@@ -1,0 +1,13 @@
+header {
+  height: 15vh;
+  background-color: rgb(136, 136, 182);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
