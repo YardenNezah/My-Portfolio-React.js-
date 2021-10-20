@@ -1,7 +1,6 @@
 import './Item.css';
 import Item from './Item';
 
-
 const Search = ({job}) => {
     function filterInput() {
         let input = document.getElementById('filter').value;
@@ -13,7 +12,6 @@ const Search = ({job}) => {
             }
         }
     }
-
     return (
         <form action=""
             style={

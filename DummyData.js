@@ -20,7 +20,7 @@ const PLACE = {
 
 module.exports = [
     {
-        id: 0,
+        num: "zero",
         cabinTitle: "Computer Science Major",
         cabinStartYear: CABIN_YEAR.Y13,
         cabinEndYear: CABIN_YEAR.Y16,
@@ -28,7 +28,7 @@ module.exports = [
         cabinDescription: ["Average grade: 95.", "Final project- Access Database"],
     },
     {
-        id: 1,
+        num: "one",
         cabinTitle: "Programmer",
         cabinStartYear: CABIN_YEAR.Y16,
         cabinEndYear: CABIN_YEAR.Y18,
@@ -36,7 +36,7 @@ module.exports = [
         cabinDescription: ["Logic programming and writing financial reports for payroll control in an internal programming language." , "Characterization, development and maintenance of interfaces such as SAP, MF.", "Guidance Microsoft Office courses for senior officers."],
     },
     {
-        id: 2,
+        num: "two",
         cabinTitle: "Member",
         cabinStartYear: CABIN_YEAR.Y19,
         cabinEndYear: CABIN_YEAR.PRESENT,
@@ -44,7 +44,7 @@ module.exports = [
         cabinDescription: ["Average grade: 92.", "Full Stack Internship.", "Won 3rd place in a 26 hour Hackathon that was hosted by Splitit."],
     },
     {
-        id: 3,
+        num: "three",
         cabinTitle: "Computer Science Student",
         cabinStartYear: CABIN_YEAR.Y19,
         cabinEndYear: CABIN_YEAR.Y22,
@@ -52,15 +52,15 @@ module.exports = [
         cabinDescription: ["Strengthening and caring for Israel’s soldiers through various programs."],
     }, 
     {
-        id: 4,
+        num: "four",
         cabinTitle: "Full Stack Developer",
         cabinStartYear: CABIN_YEAR.Y20,
         cabinEndYear: CABIN_YEAR.Y21,
         place: PLACE.DEV_CLUB,
-        cabinDescription: ["A group of students with passion for web development.", "Building engaging projects, fun challenges and personalized practice.", "Courses of: Web Development, Git, JavaScript, CSS, HTML and React.js."],
+        cabinDescription: ["A group of students with passion for web development.", "Building engaging projects, fun ch0poujenges and personalized practice.", "Courses of: Web Development, Git, JavaScript, CSS, HTML and React.js."],
     }, 
     {
-        id: 5,
+        num: "five",
         cabinTitle: "Team Manager (Front End Group)",
         cabinStartYear: CABIN_YEAR.Y21,
         cabinEndYear: CABIN_YEAR.Y22,
