@@ -7,6 +7,8 @@ import Resume from '../Container/Resume';
 import Nav from '../Nav/Nav';
 import Skills from '../Nav/Skills';
 import Footer from '../Footer/Footer';
+import Projects from '../Nav/Projects';
+import About from '../Nav/About';
 
 function App() {
     const [dataRes, setDataRes] = useState();
@@ -26,7 +28,11 @@ function App() {
     return (
         <div className="App">
             <header>
-                <Nav></Nav>
+                <Nav>
+                    <About/>
+                    <Projects/>
+                    <Skills/>
+                </Nav>
             </header>
             <Resume/>
             <div className="container">

@@ -1,3 +1,4 @@
+// Experience Year Section
 const CABIN_YEAR = {
     Y13: "2013",
     Y16: "2016",
@@ -9,6 +10,7 @@ const CABIN_YEAR = {
     PRESENT: "Present"
 };
 
+// Experience Place Section
 const PLACE = {
     HIGN_SCHOOL: "Haim Bar Lev High School",
     IDF: "Mofet, Israel Defense Forces",
@@ -17,7 +19,7 @@ const PLACE = {
     DEV_CLUB: "Colman Dev Club"
 };
 
-
+//Six Cabins of experience
 module.exports = [
     {
         num: "zero",
@@ -25,7 +27,7 @@ module.exports = [
         cabinStartYear: CABIN_YEAR.Y13,
         cabinEndYear: CABIN_YEAR.Y16,
         place: PLACE.HIGN_SCHOOL,
-        cabinDescription: ["Average grade: 95.", "Final project- Access Database"],
+        cabinDescription: ["Average grade: 95.", "Final project- Access Database"]
     },
     {
         num: "one",
@@ -33,7 +35,7 @@ module.exports = [
         cabinStartYear: CABIN_YEAR.Y16,
         cabinEndYear: CABIN_YEAR.Y18,
         place: PLACE.IDF,
-        cabinDescription: ["Logic programming and writing financial reports for payroll control in an internal programming language." , "Characterization, development and maintenance of interfaces such as SAP, MF.", "Guidance Microsoft Office courses for senior officers."],
+        cabinDescription: ["Logic programming and writing financial reports for payroll control in an internal programming language.", "Characterization, development and maintenance of interfaces such as SAP, MF.", "Guidance Microsoft Office courses for senior officers."]
     },
     {
         num: "two",
@@ -41,7 +43,7 @@ module.exports = [
         cabinStartYear: CABIN_YEAR.Y19,
         cabinEndYear: CABIN_YEAR.PRESENT,
         place: PLACE.YAHAD,
-        cabinDescription: ["Average grade: 92.", "Full Stack Internship.", "Won 3rd place in a 26 hour Hackathon that was hosted by Splitit."],
+        cabinDescription: ["Average grade: 92.", "Full Stack Internship.", "Won 3rd place in a 26 hour Hackathon that was hosted by Splitit."]
     },
     {
         num: "three",
@@ -49,23 +51,26 @@ module.exports = [
         cabinStartYear: CABIN_YEAR.Y19,
         cabinEndYear: CABIN_YEAR.Y22,
         place: PLACE.COLLEGE,
-        cabinDescription: ["Strengthening and caring for Israel’s soldiers through various programs."],
-    }, 
-    {
+        cabinDescription: ["Strengthening and caring for Israel’s soldiers through various programs."]
+    }, {
         num: "four",
         cabinTitle: "Full Stack Developer",
         cabinStartYear: CABIN_YEAR.Y20,
         cabinEndYear: CABIN_YEAR.Y21,
         place: PLACE.DEV_CLUB,
-        cabinDescription: ["A group of students with passion for web development.", "Building engaging projects, fun ch0poujenges and personalized practice.", "Courses of: Web Development, Git, JavaScript, CSS, HTML and React.js."],
-    }, 
-    {
+        cabinDescription: ["A group of students with passion for web development.", "Building engaging projects, fun ch0poujenges and personalized practice.", "Courses of: Web Development, Git, JavaScript, CSS, HTML and React.js."]
+    }, {
         num: "five",
         cabinTitle: "Team Manager (Front End Group)",
         cabinStartYear: CABIN_YEAR.Y21,
         cabinEndYear: CABIN_YEAR.Y22,
         place: PLACE.DEV_CLUB,
-        cabinDescription: ["Helping computer science students build a GitHub with an extensive portfolio and implementing the theoretical aspects of Web Development.", "Working with mentors from the industry to build the syllabus.", "Guiding a Front-End Developers group with an emphasis on clean code."],
+        cabinDescription: ["Helping computer science students build a GitHub with an extensive portfolio and implementing the theoretical aspects of Web Development.", "Working with mentors from the industry to build the syllabus.", "Guiding a Front-End Developers group with an emphasis on clean code."]
     },
 
 ];
+
+export {
+    CABIN_YEAR,
+    PLACE
+};
