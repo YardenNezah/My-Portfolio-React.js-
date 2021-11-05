@@ -70,7 +70,3 @@ module.exports = [
 
 ];
 
-export {
-    CABIN_YEAR,
-    PLACE
-};

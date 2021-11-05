@@ -16,7 +16,7 @@ const Item = ({job}) => {
                 </div>
                 <div className="second-center"></div>
 
-                <div className="all-cabins" id={cabin} onMouseOver={document.getElementsByClassName('experience-details').style={backgroundColor:'red'}}>
+                <div className="all-cabins" id={cabin}>
                     <p className="experience-time">
                         <i className="bi bi-calendar-check-fill"></i>
                         {

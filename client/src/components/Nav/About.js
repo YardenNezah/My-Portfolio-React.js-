@@ -2,7 +2,7 @@ const About = () => {
 return (
     <div>
                 <h1> About me: </h1>
-                <img src="" alt="my-img"></img>
+                <img src="./assets/yarden-img.jpeg"> </img>
                 <p>
                 Team Manager of Front-End Developers group at Colman Dev Club with 2 years of 
 experience as a programmer in the Israel Defense Forces.

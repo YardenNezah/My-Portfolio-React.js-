@@ -2,13 +2,9 @@ import {useEffect, useState} from 'react';
 import axios from 'axios';
 import './App.css';
 import Container from '../Container/Container';
-import Search from '../Container/Search';
 import Resume from '../Container/Resume';
 import Nav from '../Nav/Nav';
-import Skills from '../Nav/Skills';
 import Footer from '../Footer/Footer';
-import Projects from '../Nav/Projects';
-import About from '../Nav/About';
 
 function App() {
     const [dataRes, setDataRes] = useState();
@@ -29,14 +25,10 @@ function App() {
         <div className="App">
             <header>
                 <Nav>
-                    <About/>
-                    <Projects/>
-                    <Skills/>
                 </Nav>
             </header>
             <Resume/>
             <div className="container">
-                <br></br>
                 <Container data={dataRes}/>
             </div>
             <footer>
