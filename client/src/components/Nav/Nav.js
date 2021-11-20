@@ -6,7 +6,7 @@ import Hire from './Hire';
 import Item from './../Container/Item';
 import {SOCIAL_MEDIA_SECTION, SKILLS_SECTION, PROJECTS_SECTION, CONTACT_SECTION} from '../../Data';
 
-const Nav = () => { // const viewHome = Item.display;
+const Nav = () => { 
     const viewAbout = SOCIAL_MEDIA_SECTION.display;
     const viewProjects = PROJECTS_SECTION.display;
     const viewSkills = SKILLS_SECTION.display;

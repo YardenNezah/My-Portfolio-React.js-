@@ -31,7 +31,7 @@ body {
     background-color: rgb(224, 224, 253);
     margin-top: 100px;
     margin-left: -40px;
-    animation: ferri-wheel 15s linear infinite;
+    /*animation: ferri-wheel 15s linear infinite;*/
 }
 
 .center {
@@ -57,7 +57,6 @@ body {
     border: 2px solid rgb(136, 136, 182);
 	border-radius: 50%;
     margin: 115px;
-    position:absolute;
     animation-name: bucket_rotate;
     animation-duration: 20s;
 }
@@ -75,6 +74,7 @@ body {
 #num0 {
     left: 61%;
     bottom: 35%;
+    margin-left: 61%;
 }
 
 #num1 {
@@ -179,7 +179,7 @@ div.stand:before,
 div.stand:after {
     content: "";
     position: absolute;
-    border-right: 4px solid rgb(136, 136, 182);;
+    border-right: 4px solid rgb(136, 136, 182);
     height: 550px;
     transform: rotate(5deg);
     top: 330px;
@@ -223,6 +223,8 @@ div.stand:after {
             border-radius: 300px;
         }
 }
+
+
 
 @keyframes ferri-wheel {
 	0% {
@@ -271,3 +273,4 @@ div.stand:after {
 		transform: rotate(360deg);
 	}
 }
+

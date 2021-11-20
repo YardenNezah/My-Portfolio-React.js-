@@ -1,8 +1,7 @@
 import './Item.css';
 
 const Item = ({job}) => {
-    let num = job.id;
-    let cabin = "num" + num;
+    let cabin = "num" + job.id;
     return (
         <div className="ferris-wheel">
             <div className="wheel">
